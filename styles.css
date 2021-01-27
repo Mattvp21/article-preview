@@ -166,6 +166,7 @@
 
 
 
+
 @media (max-width: 900px) {
 
    
@@ -208,12 +209,11 @@
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 303px;
+    width: 300px;
     right: 40px;
-    transform: translate(-10px, -15px);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 55% 75%, 50% 75%, 0% 75%);
+    transform: translate(-10px, 5px);
 }
 
 
 }
-
- 

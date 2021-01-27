@@ -112,9 +112,9 @@
     background-color: var(--veryDarkGrayBlue);
     width: 280px;
     height: 90px;
-    border-radius: 30px;
-
+    border-radius: 3px;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 60% 75%, 50% 90%, 40% 75%, 0 75%);
+
 }
 
 
@@ -164,23 +164,17 @@
 
 }
 
-@media (min-width: 500px) {
-    .share {
-        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 60% 75%, 50% 90%, 40% 75%, 0 75%);
-
-    }
-}
 
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
 
    
 
 .wrapper {
     width: 300px;
-    height: 530px;
+    height: 540px;
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
     display: grid;
     justify-content: center;
    
@@ -214,10 +208,9 @@
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 305px;
+    width: 303px;
     right: 40px;
-    border-radius: none;
-    border-style: none;
+    transform: translate(-10px, -15px);
 }
 
 

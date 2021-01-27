@@ -40,10 +40,7 @@
     background-clip: padding-box;
 }
 
-.text-container {
-    position: relative;
-    padding: 3%;
-}
+
 
 .heading {
     color: var(--veryDarkGrayBlue);
@@ -60,9 +57,11 @@
 .text-container {
     display: flex;
     flex-direction: column;
+    position: relative;
+    padding: 3%;
     height: 100%;
     width: 50%;
-    margin-left: 50%;
+    left: 50%;
 }
 
 .michelle {

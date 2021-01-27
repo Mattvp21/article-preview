@@ -192,6 +192,7 @@
     width: 300px;
     top: 110px;
     right: 150px;
+    transform: translatex(-150px);
 }
 
 .heading {
